@@ -31,7 +31,7 @@ chrome.extension.onMessage.addListener(function(request, sender) {
 			}
 			
 			// announce to the user that training is required
-			labelGrade.innerText = "On this first run of the automatic classifiers Privee needs to take one minute to analyze training data. Please wait.";
+			labelGrade.innerText = "On this first run of the automatic classifiers TnC analyzer needs to take one minute to analyze training data. Please wait.";
 			
 			chrome.extension.sendMessage({
 		   		action: "trainingRequired",

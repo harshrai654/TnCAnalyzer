@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<title>Learn More about Privee</title>
+<title>Learn More about TnC Analyzer</title>
 <html style=''>
 	
 <head>
@@ -34,15 +34,15 @@
 		<a href="#2.">2. Grading</a>
 	</p>
 	
-	<p>Privee aims to make Web privacy policies easier and faster to understand. To that end, this Privee browser extension applies two different analysis methods: (1) It retrieves privacy policy analysis results from the crowdsourcing repository ToS;DR or, (2) if no such results are available, performs an automatic analysis based on rule and machine learning classification techniques.</p>
+	<p>TnC Analyzer aims to make Web privacy policies easier and faster to understand. To that end, this TnC Analyzer browser extension applies two different analysis methods: (1) It retrieves privacy policy analysis results from the crowdsourcing repository ToS;DR or, (2) if no such results are available, performs an automatic analysis based on rule and machine learning classification techniques.</p>
 	
-	<p>It is important to note that Privee is an academic project. The analysis results are not endorsed by the Web services whose policies are analyzed. The results also do not cover every policy aspect and can be incorrect at times (we measured an overall accuracy across all classifications of 84%). Thus, if you want to be sure about the contents of a policy, you should refer to the policy itself.</p>
+	<p>It is important to note that TnC Analyzer is an academic project. The analysis results are not endorsed by the Web services whose policies are analyzed. The results also do not cover every policy aspect and can be incorrect at times (we measured an overall accuracy across all classifications of 84%). Thus, if you want to be sure about the contents of a policy, you should refer to the policy itself.</p>
 		
-	<p>The following will discuss details of the automatic classification categories and the grading of the policies. For research results, please see: <i>Sebastian Zimmeck and Steven M. Bellovin, Privee: An Architecture for Automatically Analyzing Web Privacy Policies, 23rd USENIX Security Symposium, San Diego, CA, USA, August 2014</i>. To learn more about the crowdsourcing analysis please visit <a href="http://tosdr.org/" target="_blank">ToS;DR</a>.</p>
+	<p>The following will discuss details of the automatic classification categories and the grading of the policies. For research results, please see: <i>Sebastian Zimmeck and Steven M. Bellovin, TnC Analyzer: An Architecture for Automatically Analyzing Web Privacy Policies, 23rd USENIX Security Symposium, San Diego, CA, USA, August 2014</i>. To learn more about the crowdsourcing analysis please visit <a href="http://tosdr.org/" target="_blank">ToS;DR</a>.</p>
 	
 	<h1><a id="1.">1. Classifications</a></h1>
 	
-	<p>The Privee extension makes six binary classifications. For example, it decides whether or not a policy allows ad tracking or whether or not a policy has a retention limit. However, some general remarks apply to all classification categories.</p>
+	<p>The TnC Analyzer extension makes six binary classifications. For example, it decides whether or not a policy allows ad tracking or whether or not a policy has a retention limit. However, some general remarks apply to all classification categories.</p>
 	
 	<h2><a id="1.1.">1.1. General Remarks</a></h2> 
 	
@@ -50,7 +50,7 @@
 	
 	<p>If certain privacy practices under a policy are contingent upon user registration or participation, the policy is analyzed from the perspective of a registered or participating user. Thus, for example, if personal information is only collected from registered users and not from unregistered users, the policy is classified as allowing collection. Similarly, if certain practices are dependent on a user's consent, opt-in, or opt-out, it is assumed that the user consented, opted in, or did not opt out, respectively.</p> 
 	
-	<p>If a policy does not state whether or not it allows a certain privacy practice that is analyzed by our Privee extension, the policy is classified as not providing for that practice. The same is true for cases in which a policy does not discuss a certain analysis topic at all. Thus, for example, if a policy does not mention a limited retention period or does not talk about retention of information at all, the policy is classified as not providing for a retention limit.</p>
+	<p>If a policy does not state whether or not it allows a certain privacy practice that is analyzed by our TnC Analyzer extension, the policy is classified as not providing for that practice. The same is true for cases in which a policy does not discuss a certain analysis topic at all. Thus, for example, if a policy does not mention a limited retention period or does not talk about retention of information at all, the policy is classified as not providing for a retention limit.</p>
 
 	<h2><a id="1.2.">1.2. Classification Categories</a></h2> 
 	
@@ -253,9 +253,9 @@
 	
 	<h1><a id="2.">2. Grading</a></h1>
 
-	<p>In addition to the descriptions for the classifications, the Privee extension also labels each policy with an overall letter grade, which depends on the classifications. More specifically, the grade is determined by the number of points a policy is assigned. For collection, profiling, ad tracking, and ad disclosure a policy receives one minus point, respectively. However, for not allowing one of these practices a policy receives one plus point. A policy also receives a plus point for featuring limited retention or encryption, respectively. If a policy has in total more than one point it receives grade A (above average overall privacy), between one minus point and one plus point a B (average overall privacy); and less than one minus point a C (below average overall privacy).</p>
+	<p>In addition to the descriptions for the classifications, the TnC Analyzer extension also labels each policy with an overall letter grade, which depends on the classifications. More specifically, the grade is determined by the number of points a policy is assigned. For collection, profiling, ad tracking, and ad disclosure a policy receives one minus point, respectively. However, for not allowing one of these practices a policy receives one plus point. A policy also receives a plus point for featuring limited retention or encryption, respectively. If a policy has in total more than one point it receives grade A (above average overall privacy), between one minus point and one plus point a B (average overall privacy); and less than one minus point a C (below average overall privacy).</p>
 
-	<p>Privee (v1.1) 08/06/2014</p>
+	<p>TnC Analyzer (v1.1) 08/06/2014</p>
 	</font>
 </body>
 </html>

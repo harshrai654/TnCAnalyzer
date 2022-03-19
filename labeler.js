@@ -1,11 +1,3 @@
-/*
- * Privee is released under the BSD 3-Clause License.
- * Copyright (c) 2014, Sebastian Zimmeck and Steven M. Bellovin
- * All rights reserved.
- * 
- * labeler.js creates the label for the analyzed privacy policy
- * 
- */
 
 chrome.extension.onMessage.addListener(function(request, sender) {
 	

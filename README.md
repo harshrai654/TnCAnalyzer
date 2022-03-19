@@ -23,6 +23,6 @@ This Project aims to make Web privacy policies easier and faster to understand. 
 
 Windows or Linux with Google Chrome
 
-## 4. Installing and Running Privee
+## 4. Installing and Running TnC Analyser
 
 Clone this repo at a convenient location, and load the folder as an unpacked extension within Google Chrome (Settings -> Extensions -> Load unpacked extension...). To run This extension go to the website with the privacy policy that you want to analyze and push the P button in the upper right hand corner of Google Chrome. The first ML classifier run takes one minute to analyze training data.
